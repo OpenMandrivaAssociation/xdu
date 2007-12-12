@@ -11,7 +11,7 @@ License: BSD
 Group: File tools
 Url: http://sd.wareonearth.com/~phil/xdu/
 Buildroot: %_tmppath/%{name}-root
-BuildRequires: XFree86-devel
+BuildRequires: X11-devel
 # needed for rman
 BuildRequires: xorg-x11
 BuildRequires: lesstif-devel 
