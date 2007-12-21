@@ -10,6 +10,7 @@ Source: ftp://ftp.arl.mil/pub/%{name}-%{version}.tar.bz2
 License: BSD
 Group: File tools
 Url: http://sd.wareonearth.com/~phil/xdu/
+Buildroot: %_tmppath/%{name}-root
 BuildRequires: X11-devel
 # needed for rman
 BuildRequires: xorg-x11
