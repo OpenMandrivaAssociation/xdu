@@ -13,7 +13,7 @@ Url: http://sd.wareonearth.com/~phil/xdu/
 Buildroot: %_tmppath/%{name}-root
 BuildRequires: X11-devel
 # needed for rman
-BuildRequires: xorg-x11 imake gccmakedep
+BuildRequires: xorg-x11 imake gccmakedep libxp-devel
 BuildRequires: lesstif-devel 
 Requires: fileutils
 
