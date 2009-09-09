@@ -1,6 +1,6 @@
 %define name xdu
 %define version 3.0
-%define release %mkrel 8
+%define release %mkrel 9
 
 Summary: Graphically display output of du command 
 Name: %{name}
