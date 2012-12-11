@@ -47,3 +47,53 @@ rm -fr %buildroot%_prefix/lib/X11
 %{_mandir}/man1/*
 %doc README
 
+
+
+%changelog
+* Tue Feb 01 2011 Funda Wang <fwang@mandriva.org> 3.0-10mdv2011.0
++ Revision: 634900
+- simplify BR
+- turn to standard prefix
+
+* Wed Sep 09 2009 Thierry Vignaud <tv@mandriva.org> 3.0-9mdv2010.0
++ Revision: 435317
+- BR libxp-devel
+- rebuild
+
+* Tue Jun 17 2008 Thierry Vignaud <tv@mandriva.org> 3.0-8mdv2009.0
++ Revision: 222660
+- BuildRequires gccmakedep
+- BuildRequires imake
+- rebuild
+- kill re-definition of %%buildroot on Pixel's request
+- buildrequires X11-devel instead of XFree86-devel
+- import xdu
+
+  + Olivier Blin <oblin@mandriva.com>
+    - restore BuildRoot
+
+
+* Thu Sep 07 2006 Nicolas Lécureuil <neoclust@mandriva.org> 3.0-7mdv2007.0
+- Add BuildRequires
+- Fix File list
+
+* Sat Oct 01 2005 Nicolas Lécureuil <neoclust@mandriva.org> 3.0-6mdk
+- BuildRequires fix
+
+* Thu Jun 02 2005 Nicolas Lécureuil <neoclust@mandriva.org> 3.0-5mdk
+- Rebuild
+
+* Sat Jan 03 2004 Olivier Thauvin <thauvin@aerov.jussieu.fr> 3.0-4mdk
+- birthday rebuild
+
+* Fri Dec 27 2002 Olivier Thauvin <thauvin@aerov.jussieu.fr> 3.0-3mdk
+- rebuild for rpm and glibc
+- add forget config file
+
+* Sun Aug 11 2002 Olivier Thauvin <thauvin@aerov.jussieu.fr> 3.0-2mdk
+- Add Buildrequires and Requires
+- cleanup
+
+* Sun Aug 11 2002 Olivier Thauvin <thauvin@aerov.jussieu.fr> 3.0-1mdk
+- 1st standalone mdk package
+
