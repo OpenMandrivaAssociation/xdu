@@ -1,6 +1,6 @@
 %define name xdu
 %define version 3.0
-%define release %mkrel 10
+%define release  11
 
 Summary: Graphically display output of du command 
 Name: %{name}
@@ -10,7 +10,6 @@ Source: ftp://ftp.arl.mil/pub/%{name}-%{version}.tar.bz2
 License: BSD
 Group: File tools
 Url: http://sd.wareonearth.com/~phil/xdu/
-Buildroot: %_tmppath/%{name}-root
 BuildRequires: pkgconfig(x11)
 BuildRequires: pkgconfig(xt)
 BuildRequires: pkgconfig(xaw7)
