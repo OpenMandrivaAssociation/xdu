@@ -11,9 +11,9 @@ License: BSD
 Group: File tools
 Url: http://sd.wareonearth.com/~phil/xdu/
 Buildroot: %_tmppath/%{name}-root
-BuildRequires: libx11-devel
-BuildRequires: libxt-devel
-BuildRequires: libxaw-devel
+BuildRequires: pkgconfig(x11)
+BuildRequires: pkgconfig(xt)
+BuildRequires: pkgconfig(xaw7)
 BuildRequires: imake
 BuildRequires: gccmakedep
 
