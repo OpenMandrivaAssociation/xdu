@@ -1,6 +1,6 @@
 %define name xdu
 %define version 3.0
-%define release  11
+%define release  12
 
 Summary: Graphically display output of du command 
 Name: %{name}
