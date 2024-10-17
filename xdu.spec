@@ -9,7 +9,7 @@ Release: %{release}
 Source: ftp://ftp.arl.mil/pub/%{name}-%{version}.tar.bz2
 License: BSD
 Group: File tools
-Url: http://sd.wareonearth.com/~phil/xdu/
+Url: https://sd.wareonearth.com/~phil/xdu/
 BuildRequires: pkgconfig(x11)
 BuildRequires: pkgconfig(xt)
 BuildRequires: pkgconfig(xaw7)
